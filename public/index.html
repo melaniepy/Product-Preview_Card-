@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/output.css">
+  
+  <title>Melanie Fabian | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-cream">
+
+  <section class="p-3">
+    <div class="container flex flex-col max-w-sm my-10 mx-auto md:max-w-3xl md:max-h-70 md:flex-row" >
+      <!-- Image -->
+      <div class="w-full h-80 md:h-full">
+        <img class="w-full h-full object-cover rounded-t-lg md:rounded-none md:rounded-l-lg" src="images/image-product-desktop.jpg" alt="">
+      </div>
+      <!-- Texts -->
+      <div class="flex flex-col w-full justify-between p-8 space-y-6 bg-white rounded-b-lg md:rounded-none md:rounded-r-lg ">
+        
+          <h2 class="flex text-sm font-mont tracking-widest text-darkGrayishBlue md:text-xl">
+            P E R F U M E
+          </h2>
+        
+          <h1 class="font-bold text-3xl font-fraun md:text-5xl">Gabrielle Essence Eau De Parfum</h1>
+    
+        <p class="text-darkGrayishBlue font-mont">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.</p>
+     
+        <div class=" flex space-x-6 items-center">
+        <div class="font-fraun font-bold text-3xl text-darkCyan md:text-4xl">$149.99</div>
+        <div class="font-mont text-darkGrayishBlue text-md line-through justify-between md:space-x-8">$169.99</div>
+        
+        </div>
+        <button class="flex items-center justify-center rounded-lg p-4 bg-darkCyan text-white font-mont hover:bg-darkCyan2">
+          <img src="images/icon-cart.svg" alt="" class="w-5 h-5 mr-3">
+          Add to cart
+        </button>
+        <!-- <div><a href="" class="p-3 px-6 pt w-full text-white bg-darkCyan rounded-2xl shadow-2xl baseline hover:bg-veryDarkBlue">
+          Add to Cart
+         </a></div> -->
+      </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Melanie Fabian</a>.
+  </div>
+</body>
+</html>
